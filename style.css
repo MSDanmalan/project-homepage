@@ -1,0 +1,185 @@
+html {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* header styles */
+header {
+    display: flex;
+    gap: 1em;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(174deg, #009bcf 75%, #ffffff 25%); 
+}
+
+.my-image {
+    min-width: 18rem;
+    min-height: 23rem;
+    background-image: url(./images/pexels-emmy-e-2381069.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.my-name {
+    font-size: 2em;
+    color: #fff;
+}
+
+.about-me {
+    background-color: #ffffff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.quick-links {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: .5em;
+}
+
+.quick-links > svg {
+    height: 1.5em;
+}
+
+svg {
+    height: 1.2em;
+}
+
+/* main styles */
+
+main {
+    padding: 2rem;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 2em;
+}
+
+.project {
+    min-height: 20rem;
+}
+
+.screenshot {
+    font-size: 2em;
+    color: #fff;
+    min-height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#project-one {
+    background-color: maroon;
+}
+
+#project-two {
+    background-color: royalblue;
+}
+
+#project-three {
+ background-color: mediumseagreen;
+}
+
+#project-four {
+ background-color: purple;
+}
+
+#project-five {
+    background-color: orange;
+}
+
+#project-six {
+    background-color: skyblue;
+}
+
+.project-info {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-nav {
+    padding: .8em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project-quicklinks {
+    justify-self: end;
+    display: flex;
+    gap: .8em;
+}
+
+.project-name {
+    font-size: large;
+}
+
+.project-description {
+    padding: .8em;
+}
+
+/* footer */
+
+footer {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    background-color: #009bcf;
+    color: #fff;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.tele, .email, .footer-links {
+    display: flex;
+    gap: 1em;
+}
+
+.tele > svg, .email > svg {
+    filter: invert(100%) sepia(4%) saturate(7424%) hue-rotate(250deg) brightness(116%) contrast(97%);;
+}
+
+.footer-image {
+    min-width: 18rem;
+    min-height: 20rem; 
+    background-image: url(./images/pexels-emmy-e-2381069.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 1000px) {
+}
+
+@media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        background: linear-gradient(150deg, #009bcf  35%, #ffffff 15%);
+    }
+
+    .about-me {
+        min-width: 18rem;
+        min-height: 23rem;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-image {
+        min-width: 18rem;
+        min-height: 20rem; 
+    }
+}
