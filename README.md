@@ -1,6 +1,9 @@
 # project-homepage
 This project is part of the Odin Project's Advanced HTML and CSS course. The goal is to build a responsive homepage that could be used on a portfolio site, showcasing advanced HTML and CSS concepts. The design is based on a provided brief and must be responsive, meaning it should look good on various screen sizes, including desktop, tablet, and mobile devices.
 
+## Demo
+https://msdanmalan.github.io/project-homepage/
+
 ## Project Features
 - Responsive Design: The homepage is designed to be fully responsive, adapting to different screen sizes.
 - Custom Fonts and Colors: Personal fonts and color schemes are applied to ensure uniqueness and style.
@@ -16,7 +19,7 @@ This project is part of the Odin Project's Advanced HTML and CSS course. The goa
 
 ## Setup Instructions
 1. Clone this repository to your local machine:
-git clone https://github.com/your-username/homepage.git
+git clone https://github.com/msdanmalan/project-homepage.git
 2. Open the project directory:
 3. cd homepage
 4. Open the index.html file in your browser to view the homepage.
